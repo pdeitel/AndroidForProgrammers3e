@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <item
+      android:id="@+id/action_edit"
+      android:icon="@drawable/ic_mode_edit_24dp"
+      android:orderInCategory="1"
+      android:title="@string/menuitem_edit"
+      app:showAsAction="always"/>
+
+   <item
+      android:id="@+id/action_delete"
+      android:icon="@drawable/ic_delete_24dp"
+      android:orderInCategory="2"
+      android:title="@string/menuitem_delete"
+      app:showAsAction="always"/>
+</menu>

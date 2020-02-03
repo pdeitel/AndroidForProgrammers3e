@@ -1,0 +1,1 @@
+These images are from the site http://www.free-country-flags.com/. Free Country Flags by Gang of the Coconuts is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-sa/3.0/).

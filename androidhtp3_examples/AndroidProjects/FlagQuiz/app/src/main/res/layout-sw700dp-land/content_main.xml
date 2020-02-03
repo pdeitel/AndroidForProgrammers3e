@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+              app:layout_behavior="@string/appbar_scrolling_view_behavior"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+   <fragment
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:name="com.deitel.flagquiz.SettingsActivityFragment"
+      android:id="@+id/settingsActivityFragment"
+      android:layout_weight="1"/>
+
+   <fragment
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:name="com.deitel.flagquiz.MainActivityFragment"
+      android:id="@+id/quizFragment"
+      android:layout_weight="2"
+      tools:layout="@layout/fragment_main"/>
+</LinearLayout>

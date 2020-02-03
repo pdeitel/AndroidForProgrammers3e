@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:paddingLeft="@dimen/activity_horizontal_margin"
+   android:paddingRight="@dimen/activity_horizontal_margin"
+   android:paddingTop="@dimen/activity_vertical_margin"
+   android:paddingBottom="@dimen/activity_vertical_margin"
+   app:layout_behavior="@string/appbar_scrolling_view_behavior"
+   tools:showIn="@layout/activity_main"
+   tools:context=".MainActivity">
+
+   <android.support.design.widget.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/queryTextInputLayout">
+
+      <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:imeOptions="actionNext"
+         android:hint="@string/query_prompt"
+         android:singleLine="true"/>
+
+   </android.support.design.widget.TextInputLayout>
+
+   <android.support.design.widget.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/queryTextInputLayout"
+      android:id="@+id/tagTextInputLayout">
+
+      <EditText
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:imeOptions="actionDone"
+         android:hint="@string/tag_prompt"
+         android:singleLine="true"/>
+
+   </android.support.design.widget.TextInputLayout>
+
+   <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@+id/tagTextInputLayout"
+      android:background="@color/colorTaggedSearches"
+      android:layout_marginTop="@dimen/activity_vertical_margin">
+
+      <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:text="@string/tagged_searches"
+         android:id="@+id/textView"
+         android:paddingTop="@dimen/activity_vertical_margin"
+         android:paddingBottom="@dimen/activity_vertical_margin"
+         android:gravity="center_horizontal"
+         android:textStyle="bold"/>
+
+      <android.support.v7.widget.RecyclerView
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:id="@+id/recyclerView"
+         android:paddingRight="@dimen/activity_horizontal_margin"
+         android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+   </LinearLayout>
+</RelativeLayout>

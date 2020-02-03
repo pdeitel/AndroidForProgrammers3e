@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:paddingLeft="@dimen/activity_horizontal_margin"
+   android:paddingRight="@dimen/activity_horizontal_margin"
+   android:paddingTop="@dimen/activity_vertical_margin"
+   android:paddingBottom="@dimen/activity_vertical_margin"
+   tools:context=".MainActivity"
+   android:columnCount="2"
+   android:useDefaultMargins="true">
+
+   <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:id="@+id/amountEditText"
+      android:layout_column="0"
+      android:digits="0123456789"
+      android:maxLength="6"
+      android:ems="10"
+      android:layout_columnSpan="2"/>
+
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:id="@+id/amountTextView"
+      android:layout_row="0"
+      android:layout_column="0"
+      android:layout_columnSpan="2"
+      android:hint="@string/enter_amount"
+      android:layout_gravity="fill_horizontal"
+      android:background="@color/amount_background"
+      android:padding="@dimen/textview_padding"
+      android:elevation="@dimen/elevation"/>
+
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:text="@string/tip_percentage"
+      android:id="@+id/percentTextView"
+      android:layout_gravity="center_vertical|right"/>
+
+   <SeekBar
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/seekbar_height"
+      android:id="@+id/percentSeekBar"
+      android:indeterminate="false"
+      android:max="30"
+      android:progress="15"
+      android:layout_gravity="fill_horizontal"/>
+
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:text="@string/tip"
+      android:id="@+id/tipLabelTextView"
+      android:layout_gravity="right"/>
+
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:id="@+id/tipTextView"
+      android:layout_gravity="fill_horizontal"
+      android:background="@color/result_background"
+      android:gravity="center"
+      android:padding="@dimen/textview_padding"
+      android:elevation="@dimen/elevation"/>
+
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:text="@string/total"
+      android:id="@+id/totalLabelTextView"
+      android:layout_gravity="right"/>
+
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:id="@+id/totalTextView"
+      android:layout_gravity="fill_horizontal"
+      android:background="@color/result_background"
+      android:gravity="center"
+      android:padding="@dimen/textview_padding"
+      android:elevation="@dimen/elevation"/>
+
+</GridLayout>

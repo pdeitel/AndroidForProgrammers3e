@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+   <ImageView
+      android:layout_width="@dimen/image_side_length"
+      android:layout_height="match_parent"
+      android:id="@+id/conditionImageView"
+      android:contentDescription="@string/weather_condition_image"
+      android:scaleType="fitCenter"/>
+
+   <GridLayout
+      android:orientation="vertical"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:useDefaultMargins="true"
+      android:columnCount="3"
+      android:rowCount="2"
+      android:layout_weight="1">
+
+      <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:id="@+id/dayTextView"
+         android:layout_column="0"
+         android:text="LargeText"
+         android:layout_columnSpan="3"/>
+
+      <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/lowTextView"
+         android:layout_column="0"
+         android:layout_row="1"
+         android:text="New Text"
+         android:layout_columnWeight="1"/>
+
+      <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/hiTextView"
+         android:layout_column="1"
+         android:layout_row="1"
+         android:text="New Text"
+         android:layout_columnWeight="1"/>
+
+      <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/humidityTextView"
+         android:layout_column="2"
+         android:layout_row="1"
+         android:text="New Text"
+         android:layout_columnWeight="1"/>
+
+   </GridLayout>
+
+</LinearLayout>

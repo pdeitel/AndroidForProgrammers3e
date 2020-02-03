@@ -1,0 +1,15 @@
+<resources>
+   <string name="app_name">Twitter Searches</string>
+   <string name="query_prompt">Enter Twitter search query here</string>
+   <string name="tag_prompt">Tag your query</string>
+   <string name="save_description">Touch this button to save your tagged search</string>
+   <string name="tagged_searches">Tagged Searches</string>
+   <string name="search_URL">http://mobile.twitter.com/search?q=</string>
+   <string name="share_edit_delete_title">Share, Edit or Delete the search tagged as \"%s\"</string>
+   <string name="cancel">Cancel</string>
+   <string name="share_subject">Twitter search that might interest you</string>
+   <string name="share_message">Check out the results of this Twitter search: %s</string>
+   <string name="share_search">Share Search to:</string>
+   <string name="confirm_message">Are you sure you want to delete the search \"%s\"?</string>
+   <string name="delete">Delete</string>
+</resources>

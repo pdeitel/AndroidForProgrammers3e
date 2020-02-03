@@ -1,0 +1,123 @@
+<FrameLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent">
+
+   <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameTextInputLayout">
+
+            <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/editText"
+               android:hint="@string/hint_name_required"
+               android:imeOptions="actionNext"
+               android:inputType="textCapWords|textPersonName"/>
+         </android.support.design.widget.TextInputLayout>
+
+         <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneTextInputLayout">
+
+            <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/editText2"
+               android:hint="@string/hint_phone"
+               android:imeOptions="actionNext"
+               android:inputType="phone"/>
+         </android.support.design.widget.TextInputLayout>
+
+         <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailTextInputLayout">
+
+            <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/editText3"
+               android:hint="@string/hint_email"
+               android:imeOptions="actionNext"
+               android:inputType="textEmailAddress"/>
+         </android.support.design.widget.TextInputLayout>
+
+         <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/streetTextInputLayout">
+
+            <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/editText4"
+               android:hint="@string/hint_street"
+               android:imeOptions="actionNext"
+               android:inputType="textCapWords|textPostalAddress"/>
+         </android.support.design.widget.TextInputLayout>
+
+         <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityTextInputLayout">
+
+            <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/editText5"
+               android:hint="@string/hint_city"
+               android:imeOptions="actionNext"
+               android:inputType="textCapWords|textPostalAddress"/>
+         </android.support.design.widget.TextInputLayout>
+
+         <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/stateTextInputLayout">
+
+            <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/editText6"
+               android:hint="@string/hint_state"
+               android:imeOptions="actionNext"
+               android:inputType="textPostalAddress|textCapCharacters"/>
+         </android.support.design.widget.TextInputLayout>
+
+         <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/zipTextInputLayout">
+
+            <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/editText7"
+               android:hint="@string/hint_zip"
+               android:imeOptions="actionDone"
+               android:inputType="number"/>
+         </android.support.design.widget.TextInputLayout>
+      </LinearLayout>
+   </ScrollView>
+
+   <android.support.design.widget.FloatingActionButton
+      android:id="@+id/saveFloatingActionButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="top|end"
+      android:layout_margin="@dimen/fab_margin"
+      android:src="@drawable/ic_save_24dp"/>
+
+</FrameLayout>

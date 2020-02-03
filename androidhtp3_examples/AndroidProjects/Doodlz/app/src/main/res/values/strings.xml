@@ -1,0 +1,23 @@
+<resources>
+   <string name="app_name">Doodlz</string>
+   <string name="button_erase">Erase Image</string>
+   <string name="button_set_color">Set Color</string>
+   <string name="button_set_line_width">Set Line Width</string>
+   <string name="line_imageview_description">This displays the line thickness</string>
+   <string name="label_alpha">Alpha</string>
+   <string name="label_red">Red</string>
+   <string name="label_green">Green</string>
+   <string name="label_blue">Blue</string>
+   <string name="menuitem_delete">Erase Drawing</string>
+   <string name="menuitem_color">Color</string>
+   <string name="menuitem_line_width">Line Width</string>
+   <string name="menuitem_save">Save</string>
+   <string name="menuitem_print">Print</string>
+   <string name="message_erase">Erase the drawing?</string>
+   <string name="message_error_saving">There was an error saving the image</string>
+   <string name="message_saved">Your saved painting can be viewed in the Photos app by selecting Device Folders from that app\'s menu</string>
+   <string name="message_error_printing">Your device does not support printing</string>
+   <string name="title_color_dialog">Choose Color</string>
+   <string name="title_line_width_dialog">Choose Line Width</string>
+   <string name="permission_explanation">To save an image, the app requires permission to write to external storage</string>
+</resources>
