@@ -5,9 +5,10 @@ package com.deitel.doodlz;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.support.v4.app.DialogFragment; //******************************
 import android.content.DialogInterface;
 import android.os.Bundle;
+
+import androidx.fragment.app.DialogFragment;
 
 // class for the Erase Image dialog
 public class EraseImageDialogFragment extends DialogFragment {

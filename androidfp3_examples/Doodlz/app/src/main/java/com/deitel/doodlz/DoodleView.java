@@ -10,12 +10,13 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Point;
 import android.provider.MediaStore;
-import android.support.v4.print.PrintHelper;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.print.PrintHelper;
 
 import java.util.HashMap;
 import java.util.Map;

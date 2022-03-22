@@ -8,10 +8,11 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.DialogFragment;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
+
+import androidx.fragment.app.DialogFragment;
 
 // class for the Select Color dialog
 public class ColorDialogFragment extends DialogFragment {
