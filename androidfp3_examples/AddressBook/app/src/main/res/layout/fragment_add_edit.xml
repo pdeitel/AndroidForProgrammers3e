@@ -12,7 +12,7 @@
          android:layout_width="match_parent"
          android:layout_height="wrap_content">
 
-         <android.support.design.widget.TextInputLayout
+         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/nameTextInputLayout">
@@ -24,9 +24,9 @@
                android:hint="@string/hint_name_required"
                android:imeOptions="actionNext"
                android:inputType="textCapWords|textPersonName"/>
-         </android.support.design.widget.TextInputLayout>
+         </com.google.android.material.textfield.TextInputLayout>
 
-         <android.support.design.widget.TextInputLayout
+         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/phoneTextInputLayout">
@@ -38,9 +38,9 @@
                android:hint="@string/hint_phone"
                android:imeOptions="actionNext"
                android:inputType="phone"/>
-         </android.support.design.widget.TextInputLayout>
+         </com.google.android.material.textfield.TextInputLayout>
 
-         <android.support.design.widget.TextInputLayout
+         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/emailTextInputLayout">
@@ -52,9 +52,9 @@
                android:hint="@string/hint_email"
                android:imeOptions="actionNext"
                android:inputType="textEmailAddress"/>
-         </android.support.design.widget.TextInputLayout>
+         </com.google.android.material.textfield.TextInputLayout>
 
-         <android.support.design.widget.TextInputLayout
+         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/streetTextInputLayout">
@@ -66,9 +66,9 @@
                android:hint="@string/hint_street"
                android:imeOptions="actionNext"
                android:inputType="textCapWords|textPostalAddress"/>
-         </android.support.design.widget.TextInputLayout>
+         </com.google.android.material.textfield.TextInputLayout>
 
-         <android.support.design.widget.TextInputLayout
+         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/cityTextInputLayout">
@@ -80,9 +80,9 @@
                android:hint="@string/hint_city"
                android:imeOptions="actionNext"
                android:inputType="textCapWords|textPostalAddress"/>
-         </android.support.design.widget.TextInputLayout>
+         </com.google.android.material.textfield.TextInputLayout>
 
-         <android.support.design.widget.TextInputLayout
+         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/stateTextInputLayout">
@@ -94,9 +94,9 @@
                android:hint="@string/hint_state"
                android:imeOptions="actionNext"
                android:inputType="textPostalAddress|textCapCharacters"/>
-         </android.support.design.widget.TextInputLayout>
+         </com.google.android.material.textfield.TextInputLayout>
 
-         <android.support.design.widget.TextInputLayout
+         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/zipTextInputLayout">
@@ -108,11 +108,11 @@
                android:hint="@string/hint_zip"
                android:imeOptions="actionDone"
                android:inputType="number"/>
-         </android.support.design.widget.TextInputLayout>
+         </com.google.android.material.textfield.TextInputLayout>
       </LinearLayout>
    </ScrollView>
 
-   <android.support.design.widget.FloatingActionButton
+   <com.google.android.material.floatingactionbutton.FloatingActionButton
       android:id="@+id/saveFloatingActionButton"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
