@@ -1,3 +1,5 @@
+# This repository is here for archive purposes. We currently do not have plans to update our book Android for Programmers. 
+
 # Android for Programmers, 3e
 Code Downloads for Android for Programmers
 
